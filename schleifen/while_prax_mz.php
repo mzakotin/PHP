@@ -1,17 +1,16 @@
 <?php
-require '../../../config.php';
 
-echo'<b>Aufgabe 1</b>'.NL;
+echo'<b>Aufgabe 1</b>'.'<br>';
 $i = 1;
 while ($i>=1 && $i<=20) {
 
-    echo 'Das Quadrat von '.$i.' ist '.pow($i,2).'.'.NL;
+    echo 'Das Quadrat von '.$i.' ist '.pow($i,2).'.'.'<br>';
     $i++;
 }
-echo NL;
+echo '<br>';
 
 echo '<b>Aufgabe 2</b>'.NL;
-echo NL;
+echo '<br>';
 $zahl = 1;
 $oben = 10;
 echo "<h2>Potenzieren von Zahlen</h2>";
@@ -27,10 +26,10 @@ while ($zahl <= $oben) {
     echo "<td>" . pow ($zahl, 3) . "</td></tr>"; $zahl = $zahl + 1;
 }
 echo "</table> ";
-echo NL;
+echo '<br>';
 
-echo '<b>Aufgabe 3</b>'.NL;
-echo NL;
+echo '<b>Aufgabe 3</b>'.'<br>';
+echo '<br>';
 $summe1 = 0;
 $summe2 = 0;
 
