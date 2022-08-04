@@ -1,7 +1,6 @@
 <?php
-require '../../../../config.php';
 
-echo '<b>n) IF-ELSE anwenden: Promillerechner</b>'.NL;
+echo '<b>n) IF-ELSE anwenden: Promillerechner</b>'.'<br>';
 ?>
 <!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><title>Title</title></head>
 <body>
@@ -22,8 +21,8 @@ echo '<b>n) IF-ELSE anwenden: Promillerechner</b>'.NL;
 <?php
 ($_POST["liter"] = NULL);
 ($_POST["gramm"] = ($_POST["liter"]) * 0.05 * 0.79);
-$_POST["liter"].' Liter Bier entsprechen '. $_POST["gramm"] . ' Gramm Alkohol.';NL;
-echo NL;
+$_POST["liter"].' Liter Bier entsprechen '. $_POST["gramm"] . ' Gramm Alkohol.';'<br>';
+echo '<br>';
 ($_POST["A"] = 20);
 ($_POST["G"] = 70);
 ($_POST["geschlecht"]='weiblich');
@@ -47,10 +46,10 @@ switch ($_POST["c"]) {
 ?>
 </body></html>
 <?php
-echo NL;
-echo NL;
+echo '<br>';
+echo '<br>';
 
-echo '<b>o) Einfacher Passwortschutz</b>'.NL;
+echo '<b>o) Einfacher Passwortschutz</b>'.'<br>';
 ?>
 <!DOCTYPE html><html lang="de"><head><meta charset="UTF-8"><title>Title</title></head>
 <body>
