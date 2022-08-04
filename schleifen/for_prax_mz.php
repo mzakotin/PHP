@@ -1,13 +1,12 @@
 <?php
-require '../../../config.php';
 
-echo '<b>Aufgabe 1</b>'.NL;
+echo '<b>Aufgabe 1</b>'.'<br>';
 echo NL;
 
-for($i=0; $i<=10; $i++) { echo $i.NL;}
-echo NL;
+for($i=0; $i<=10; $i++) { echo $i.'<br>';}
+echo '<br>';
 
-echo '<b>Aufgabe 2</b>'.NL;
+echo '<b>Aufgabe 2</b>'.'<br>';
 echo "<h2>Das kleine Einmaleins</h2>";
 echo "<table border='1'> ";
 
